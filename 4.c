@@ -1,4 +1,4 @@
-// ½»»»Á½Êı
+// äº¤æ¢ä¸¤æ•°
 #include <stdio.h>
 
 void swap(int*a,int*b)
