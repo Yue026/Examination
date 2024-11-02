@@ -1,14 +1,13 @@
-
+// 修改指针指向的数据
 #include <stdio.h>
 
 void pointer(int *a)
 {
-    int temp=9;
-    a=&temp;
-    temp+=*a;
-    printf("temp=%d\n",temp);
+    *a+=2;
     printf("*a=%d\n",*a);
 }
+
+
 
 int main()
 {
